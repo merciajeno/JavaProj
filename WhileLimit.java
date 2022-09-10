@@ -29,15 +29,14 @@ public class WhileLimit {
 			
 		System.out.println(result);
 		i++;
-	    }
+	         }
 	 
 	}
-}
-public class WhileLimitRunner {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		WhileLimit object=new WhileLimit(90);
-      object.Squares();
+                object.Squares();
 		object.Cubes();
 	}
 
