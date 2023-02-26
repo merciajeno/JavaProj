@@ -7,8 +7,8 @@ public class MyProj {
 		
 	
 	
-		Scanner scanner=new Scanner(System.in);
-		int i,first_position,last_position;
+        Scanner scanner=new Scanner(System.in);
+	int i,first_position,last_position;
         System.out.println("Enter your credit card number");
         String credit=scanner.next();
         char[] array=new char[credit.length()];
